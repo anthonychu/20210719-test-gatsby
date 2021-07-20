@@ -6,11 +6,10 @@
  */
 
 import * as React from "react"
-import { Link } from "gatsby"
 
 const Bio = () => (
   <div className="bio">
-    <Link to="/contact">Contact me</Link>
+    <a href="/contact">Contact me</a>
   </div>
 )
 
